@@ -1,0 +1,15 @@
+{
+  "name": "carefree-class-client",
+  "version": "0.1.0",
+  "description": "carefree class manage client",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue3",
+    "typescript"
+  ],
+  "author": "begonia<windy9193@163.com>",
+  "license": "MIT"
+}
