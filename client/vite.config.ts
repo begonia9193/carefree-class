@@ -2,7 +2,7 @@
  * @type { import ('vite/dist/node/config') }
  */
 const config = {
-  port: 8080
+  port: 9001
 }
 
 module.exports = config

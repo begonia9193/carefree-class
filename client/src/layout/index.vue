@@ -1,9 +1,15 @@
 <template>
   <div>
-    <h1>布局主体</h1>
+    <SideMenu />
   </div>
 </template>
 
-<script>
-export default {}
+<script lang="ts">
+import SideMenu from './components/SideMenu.vue'
+
+export default {
+  components: {
+    SideMenu
+  }
+}
 </script>
