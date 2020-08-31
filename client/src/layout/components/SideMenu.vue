@@ -1,6 +1,6 @@
 <template>
-  <div class="side-wrap">
-    <h3>side menu</h3>
+  <div class="side-menu-wrapper">
+    
   </div>
 </template>
 

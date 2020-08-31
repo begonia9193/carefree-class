@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layout-index">
     <SideMenu />
   </div>
 </template>
