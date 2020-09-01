@@ -8,5 +8,6 @@
   "prettier.singleQuote": true,
   "typescript.format.semicolons": "remove",
   "vetur.format.defaultFormatter.ts": "vscode-typescript",
-  "vetur.format.defaultFormatter.js": "vscode-typescript"
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "none"
 }
