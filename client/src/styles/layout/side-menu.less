@@ -1,9 +1,24 @@
 @width: 200px;
 @shrinkage: 80px;
-@prefix-name: ~'side-menu';
+@layout-side-prefix: ~'side-menu-';
 
-.@{prefix-name} {
-  &-wrapper {
+.@{layout-side-prefix} {
+  &wrapper {
     width: @width;
+    display: inline-block;
+    background: @color-lg-blue;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+
+    .class-info {
+      .flex-center-xy();
+      
+      .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+    }
   }
 }
