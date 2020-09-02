@@ -1,23 +1,40 @@
-@width: 200px;
-@shrinkage: 80px;
 @layout-side-prefix: ~'side-menu-';
 
 .@{layout-side-prefix} {
   &wrapper {
+    @width: 180px;
+    @shrinkage: 80px;
+    @avatar-size: 40px;
+
     width: @width;
     display: inline-block;
     background: @color-lg-blue;
     height: 100%;
     padding: 15px;
-    text-align: center;
+    color: @color-font-light;
+    letter-spacing: 1px;
 
     .class-info {
       .flex-center-xy();
-      
+      .info {
+        text-align: left;
+        padding-left: 10px;
+      }
       .avatar {
-        width: 50px;
-        height: 50px;
+        width: @avatar-size;
+        height: @avatar-size;
         border-radius: 50%;
+        border: 3px solid #fff;
+      }
+    }
+
+    .menu {
+      padding: 10px 0;
+      list-style-type: none;
+      user-select: none;
+      .menu-item {
+        padding: 10px 0;
+        cursor: pointer;
       }
     }
   }
