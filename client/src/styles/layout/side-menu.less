@@ -33,8 +33,20 @@
       list-style-type: none;
       user-select: none;
       .menu-item {
-        padding: 10px 0;
+        padding: 10px 0 10px 20px;
         cursor: pointer;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        transition: all 0.2s ease-in-out;
+        &::before {
+          padding-right: 5px;
+        }
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+        &:hover {
+          background: rgba(255, 255, 255, 0.3);
+        }
       }
     }
   }
