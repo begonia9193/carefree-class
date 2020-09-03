@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "46b3f8cba194cde5b2f7391afe1c9f054b2b993f4cf3e1806b32420f39556e27",
-    "current": "46b3f8cba194cde5b2f7391afe1c9f054b2b993f4cf3e1806b32420f39556e27"
+    "previous": "e3c7bf13a35bf5f4ac9ed4c9049e4a5aba16694c749e982989509668784fafbc",
+    "current": "e3c7bf13a35bf5f4ac9ed4c9049e4a5aba16694c749e982989509668784fafbc"
   },
   "fonts": [
-    "src/assets/icon-font//icon-font.ttf",
-    "src/assets/icon-font//icon-font.svg",
-    "src/assets/icon-font//icon-font.woff",
-    "src/assets/icon-font//icon-font.eot",
-    "src/assets/icon-font//icon-font.woff2"
+    "src/styles/icons/icons.ttf",
+    "src/styles/icons/icons.svg",
+    "src/styles/icons/icons.woff",
+    "src/styles/icons/icons.eot",
+    "src/styles/icons/icons.woff2"
   ],
   "glyphs": {
     "overview": {
@@ -27,7 +27,7 @@
     "font_descent": 64,
     "font_design_size": 16,
     "font_em": 512,
-    "font_name": "icon-font",
+    "font_name": "icons",
     "force": false,
     "input": {
       "templates": "src/assets/image/font-svg",
@@ -35,9 +35,9 @@
     },
     "no_hash": true,
     "output": {
-      "css": "src/assets/icon-font/",
-      "fonts": "src/assets/icon-font/",
-      "preview": "src/assets/icon-font/"
+      "css": "src/styles/icons",
+      "fonts": "src/styles/icons",
+      "preview": "src/styles/icons"
     },
     "preprocessor_path": null,
     "quiet": false,
@@ -47,7 +47,7 @@
     ]
   },
   "templates": [
-    "src/assets/icon-font/icon-font.css",
-    "src/assets/icon-font/icon-font-preview.html"
+    "src/styles/icons/icons.css",
+    "src/styles/icons/icons-preview.html"
   ]
 }

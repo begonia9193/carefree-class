@@ -1,7 +1,8 @@
 #!/bin/bash
 fontcustom compile \
   src/assets/image/font-svg \
-  -n "icon-font" \
+  -n "icons" \
   -h \
-  -o src/assets/icon-font
-# mv src/styles/icon-font/icon-font.css src/styles/icon-font/icon-font.less
+  -o src/styles/icons
+mv src/styles/icons/icons.css src/styles/icons/index.less
+# node utils/fix-icon.ts

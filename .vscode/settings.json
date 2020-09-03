@@ -2,7 +2,6 @@
   "prettier.trailingComma": "none",
   "prettier.semi": false,
   "javascript.format.semicolons": "remove",
-  "javascript.format.insertSpaceAfterCommaDelimiter": false,
   "typescript.format.insertSpaceAfterCommaDelimiter": false,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
